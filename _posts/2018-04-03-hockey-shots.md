@@ -65,8 +65,10 @@ Next, I took a closer look at the angle of the shot. In this case, 0⁰ represen
 The types of shots taken per angles again follows our intuition. Most shots—even my beloved slap shot—are best when they are centered. Everything except the pesky wrap around shot which works only at near parallel to the goal line (sorry, still blows my mind!). This graph is also interesting because of the reflection of the backhand and the wrap around shot: polar opposites in terms of their angle. 
 
 
-Finally, the ever-present variable hanging over every hockey player’s head is time. To take a moment to wax poetic about why I adore this sport: hockey is a fool’s race against time. The best players know how to manipulate the clock and the players on the ice to wait for the perfect moment to release the puck from their stick. It’s a beautiful thing. Just look at the patience that Claude Giroux has in this OT game winning goal—it’s pure magic.
+Finally, the ever-present variable hanging over every hockey player’s head is time. To take a moment to wax poetic about why I adore this sport: hockey is a fool’s race against time. The best players know how to manipulate the clock and the players on the ice to wait for the perfect moment to release the puck from their stick. It’s a beautiful thing. [ Just look at the patience that Claude Giroux has in this OT game winning goal](https://twitter.com/SonsofPenn/status/980521489807048710)—it’s pure magic. 
 
+
+So, how do the shots perform against time? Well, it turns out that they don’t care as much. Time erases everything, including differences in who is taking and making what kinds of shots. The only interesting bump is at the very end of the games when wrist shots and subsequently forwards see a little bump in success.
 
 ![type time]({{ "/assets/TypeTime.png" | absolute_url }})
 
