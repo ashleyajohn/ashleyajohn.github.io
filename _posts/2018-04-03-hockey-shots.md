@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Data on Ice: Exploring NHL Shot Data"
+date: 2018-04-03
+---
+
 So, somehow the Stanley Cup Playoffs start in just over a week?!
 
 I have no idea how the past six months flew by, and in the craziness of grad school and job searching and life in general, my Flyers are left fighting for a spot in the Metro as the clock winds down. Hockey is notably based on luck. It is difficult to predict, and unlike basketball which is essentially an endless coin flip back and forth, hockey is determined by small actions. A single player shining or failing can cost a team a game.
