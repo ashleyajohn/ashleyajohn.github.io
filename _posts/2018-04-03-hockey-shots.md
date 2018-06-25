@@ -12,7 +12,7 @@ So, as I am working on creating my own hockey predictive model this summer, I de
 
 First, just to lay the ground work of the space we are working in here, let’s just remember how hard it is to score a goal in hockey. With the average save percentage of NHL goal tenders hovering around 0.933, it takes immense skill to get the puck to the net in the National Hockey League.
 
-Just looking at the count of shots taken above, a mere fraction of them actual result in a goal (shown as “1” here). The success rate stays about the same except for an uptick at the very end of the game when teams are pushing hard for a win and when teams pull the goalie. 
+Just looking at the count of shots taken above, a mere fraction of them actually result in a goal (shown as “1” here). The success rate stays about the same except for an uptick at the very end of the game when teams are pushing hard for a win and when teams pull the goalie. 
 
 ![shot success]({{ "/assets/shotSuccessCount.png" | absolute_url }})
 
@@ -20,7 +20,7 @@ At another angle here, we can see the success rate across the time span of a gam
 
 ![shot success]({{ "/assets/shotSuccessPercent2.png" | absolute_url }})
 
-So, it is tough to make a goal in hockey. Just want to make sure that is understated!
+So, it is tough to make a goal in hockey. Just want to make sure that isn't understated!
 
 Next, I wanted to look at how the position on the ice affected the likelihood of a goal. Following intuition, one might expect that if a shot is closer to the goalie, it is more likely to go in because there’s less obstacles in the way. However, as we’ve seen before, it’s really really hard to make a goal in the NHL and that’s mainly to do with how good NHL goalies are. Chances are, if you are taking a shot that close to the goalie, they are also able to track it pretty well.
 
