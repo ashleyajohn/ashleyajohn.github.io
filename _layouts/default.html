@@ -5,6 +5,17 @@
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
+		
+		<!-- Stuff for jsarr tag  -->
+
+		    {% for js in page.jsarr %}
+		      <script type="text/javascript">
+			 {% include {{ js }} %}
+		      </script>
+		    {% endfor %}
+
+		    <!-- End Stuff for jsarr tag  -->
+		
 		<body>
 			<nav>
 	    		<ul>
