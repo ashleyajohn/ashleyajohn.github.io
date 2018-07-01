@@ -7,8 +7,6 @@ title: About Me
 <html>
 <head>
 	
-	
-  <title>Timeline | Basic demo</title>
 
   <style >
     .vis-item {
@@ -17,6 +15,7 @@ title: About Me
       background-color: #8BC190;
     }
   </style>
+	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
 </head>
@@ -33,8 +32,8 @@ title: About Me
 			  	{id: 1, content: 'B.S. in Industrial Engineering @ Pitt', start:'2017-04-30', type:''},
 			  	{id: 2, content: 'MEng in Operations Research and <br>Information Engineering @ Cornell Tech', start:'2018-05-27',type:""},
 			  	{id: 3, content: 'Global Data @ Bloomberg', start: '2018-06-11', type:""},
-				{id: 4, content: 'Business Systems Intern<br>@ Giant Eagle', start:'2014-08-01', type:''},
-				{id: 5, content: 'Analyst Intern<br>@ Source One', start:'2017-07-28', type:''},
+				{id: 4, content: 'Business Systems Intern<br>@ Giant Eagle', start='2014-05-12', end:'2014-08-01', type:'range'},
+				{id: 5, content: 'Analyst Intern<br>@ Source One', start='2017-05-01', end:'2017-07-28', type:'range'},
 				{id: 6, content: 'Research Assistant<br>@ Pitt IE Department', start: '2014-10-01', end:'2017-04-30', type:'range'}
 			  	]);
 			  // Configuration for the Timeline
