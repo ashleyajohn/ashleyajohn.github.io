@@ -16,49 +16,52 @@ title: About Me
     }
   </style>
 	
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-<div id="visualization"></div>
-
-			<script type="text/javascript">
+<script type="text/javascript">
 			  // DOM element where the Timeline will be attached
 			  var container = document.getElementById('visualization');
+
 			  // Create a DataSet (allows two way data-binding)
 			  var today = new Date();
 			  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
 			  var items = new vis.DataSet([
-			  	{id: 1, content: 'B.S. in Industrial Engineering @ Pitt', start:'2017-04-30', type:'point'},
-			  	{id: 2, content: 'MEng in Operations Research and <br>Information Engineering @ Cornell Tech', start:'2018-05-27', type:"point"},
-			  	{id: 3, content: 'Global Data @ Bloomberg', start: '2018-06-11', type:"point"},
-				{id: 4, content: 'Business Systems Intern<br>@ Giant Eagle', start='2014-05-12', end:'2014-08-01', type:'range'},
-				{id: 5, content: 'Analyst Intern<br>@ Source One', start='2017-05-01', end:'2017-07-28', type:'range'},
-				{id: 6, content: 'Research Assistant<br>@ Pitt IE Department', start: '2014-10-01', end:'2017-04-30', type:'range'}
+			  	{id: 1, content: 'EYEBEAM <br>Resident', start: '2014-02-01', end:'2015-08-30', type:'range'},
+			  	{id: 2, content: 'Consultant <br>for NYCDOE', start: '2016-07-15',type:""},
+			  	{id: 3, content: 'Consultant <br>for NYCDOE', start: '2017-07-15', type:""},
+			  	{id: 4, content: 'Parsons Design+Tech BFA', start: '2015-09-01', end: '2019-05-30'},
+			  	{id: 5, content: 'Cornell-Tech ', start: '2017-09-01', }
 			  	]);
+
 			  // Configuration for the Timeline
 			  var options = {
-			  	height: '50vh',
-				horizontalScroll: true, 
+			  	height: '70vh',
 			  	zoomable: false,
-			  	start: new Date(2013, 01, 21),
-			  	end: new Date(2018, 12, 31),
+			  	start: new Date(2013, 12, 21),
+			  	end: new Date(2018, 9, 30),
 			  	min: new Date(2012,12,10),
 			  	max: new Date(2020,03,20)
 			  };
+
 			  // Create a Timeline
 			  var timeline = new vis.Timeline(container, items, options);
+
 			  var txtData = document.getElementById('data');
 			  var btnLoad = document.getElementById('load');
 			  function loadData () {
 			  	var temp="[{\"id\":"+Math.round(Math.random() * 100)+",\"content\":\""+txtData.value+"\",\"start\":\"2018-05-30\"}]"
 			  	var data = JSON.parse(temp);
 			  	if(txtData.value != ""){ 
+
 			  		items.add(data);
+
 			    // adjust the timeline window such that we see the loaded data
 			    timeline.fit();
 			}
 		}
-
+		btnLoad.onclick = loadData;
+		 // attach events to the navigation buttons
+    document.getElementById('zoomIn').onclick    = function () { timeline.zoomIn( 0.5); };
+    document.getElementById('zoomOut').onclick   = function () { timeline.zoomOut( 0.5); };
    
+
 	</script>
