@@ -20,35 +20,36 @@ With the data reduced, the next step was to get working on the actual clustering
 
 The biggest decrease appears to occur between n=5 and n=15, so I zoomed in on that window. 
 
-Next, I was interested in seeing how different clustering algorithms grouped the data. First, I stuck with the familiar k-means clustering. K-means clustering iteratively to assigns each data point to one of K groups based on the features that are provided. The iterations of the clusters change as the centroids of the clusters are optimized such that the distance between each datapoint and its assigned centroid is minimized. In this case, since I had no background knowledge of the data, I let scikitlearn randomly initialize the centroids. As shown in the gif below, the clustering can change a lot depending on how many clusters there are.  
+Next, I was interested in seeing how different clustering algorithms grouped the data. First, I stuck with the familiar k-means clustering. K-means clustering iteratively to assigns each data point to one of K groups based on the features that are provided. The iterations of the clusters change as the centroids of the clusters are optimized such that the distance between each datapoint and its assigned centroid is minimized. In this case, since I had no background knowledge of the data, I let scikitlearn randomly initialize the centroids. As shown in the gif below (anchored by American cities, for some context), the clustering can change a lot depending on how many clusters there are.  
 
 ![k means]({{ "/assets/kmeans.gif" | absolute_url }})
 
 Next, I wanted to explore hierarchical clustering. Hierarchical clustering involves creating clusters that have a predetermined ordering from top to bottom. Meaning that groups are made iteratively, like k-means but it is a greedy algorithm. Where k-means will find a local optimum, which can be sensitive to initialization point, hierarchical clustering seeks the optimal cluster at each of its decision points. For this analysis, I looked at agglomerative clustering which is a bottom up approach. Agglomerative clustering starts by treating each data point as its own self-contained cluster, finds similarities between groups, and then works its way up to larger clusters. 
 
 Agglomerative clustering has a few more parameters to experiment with, two of which I explored: linkage and affinity. Linkage determines the distance between sets of observations as a function of the pairwise distances between observations. Per scikit learn documentation: 
-* Ward minimizes the sum of squared differences within all clusters. It is a variance-minimizing approach and in this sense is like the k-means objective function but tackled with an agglomerative hierarchical approach.
-* Maximum or complete linkage minimizes the maximum distance between observations of pairs of clusters.
-* Average linkage minimizes the average of the distances between all observations of pairs of clusters.
+* Average linkage (left) minimizes the average of the distances between all observations of pairs of clusters.
 As seen in the gif below, there are clear differences between the clusters within the same n_clusters and between them. 
+* Maximum or complete (center) linkage minimizes the maximum distance between observations of pairs of clusters.
+* Ward (right) minimizes the sum of squared differences within all clusters. It is a variance-minimizing approach and in this sense is like the k-means objective function but tackled with an agglomerative hierarchical approach.
 
 ![linkage]({{ "/assets/linkage.gif" | absolute_url }})
 
-Affinity is the way that the distance between points is calculated: 
+Affinity is the way that the distance between points is calculated, shown from left to right: 
 * Euclidean
 * L1
 * L2
 * Manhattan
 * Cosine
+
 Ward linkage only allows for Euclidean distance, so the affinity was only toggled here for complete and average linkage. Like the linkage, the distance measure has a true effect on the shape and size of the clusters. 
 
 ![linkage]({{ "/assets/affinity.gif" | absolute_url }})
 
-Finally, I was interested to see how these clusters matched intuition about different cities in the world. I looked at developing countries vs. developed countries according to economic indicators. There is a clear difference between the two, as all the developed countries are grouped on the left and all the developing countries on the right. Though it is not possible to say exactly what variable is driving the difference since the features have been reduced via PCA, the daily life of citizens is still different between the two groups of countries even as their economies are beginning to converge. 
+Finally, I was interested to see how these clusters matched intuition about different cities in the world. I looked at developing countries vs. developed countries according to economic indicators. I look at cluster nuber n=7 as a fair middle ground for the sake of comparison. As it tirns out though, the cluster pretty much makes itself! There is a clear difference between the two, as all the developed countries are grouped on the left and all the developing countries on the right. Though it is not possible to say exactly what variable is driving the difference since the features have been reduced via PCA, the daily life of citizens is still different between the two groups of countries even as their economies are beginning to converge. 
 
 ![developed]({{ "/assets/developed.png" | absolute_url }})
 ![emerging]({{ "/assets/emerging.png" | absolute_url }})
 
 There is much more that could be done to improve this analysis including getting more cities and more granular data. However, this was an easy, colorful and fun analysis to learn about the similarities between cities around the world. I’ll hopefully be planning my next trip to a city unlike mine! 
 
-[Code for this project can be found on my Github.](https://github.com/ashleyajohn/hockeyData)
+[Code for this project can be found on my Github.](https://github.com/ashleyajohn/city-cluster)
