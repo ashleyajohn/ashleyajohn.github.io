@@ -5,7 +5,7 @@ body {
     background-color:  #FBF4A7;
 }
 nav ul, footer ul {
-    font-family:"Courier New", Courier, monospace;
+    font-family:"Arial", Helvetica, sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
