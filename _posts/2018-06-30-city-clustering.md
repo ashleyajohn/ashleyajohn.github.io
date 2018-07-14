@@ -47,8 +47,7 @@ Ward linkage only allows for Euclidean distance, so the affinity was only toggle
 
 Finally, I was interested to see how these clusters matched intuition about different cities in the world. I looked at developing countries vs. developed countries according to economic indicators. I look at cluster nuber n=7 as a fair middle ground for the sake of comparison. As it tirns out though, the cluster pretty much makes itself! There is a clear difference between the two, as all the developed countries are grouped on the left and all the developing countries on the right. Though it is not possible to say exactly what variable is driving the difference since the features have been reduced via PCA, the daily life of citizens is still different between the two groups of countries even as their economies are beginning to converge. 
 
-![developed]({{ "/assets/developed.png" | absolute_url }})
-![emerging]({{ "/assets/emerging.png" | absolute_url }})
+![developed-emerging]({{ "/assets/dev-emerging.gif" | absolute_url }})
 
 There is much more that could be done to improve this analysis including getting more cities and more granular data. However, this was an easy, colorful and fun analysis to learn about the similarities between cities around the world. I’ll hopefully be planning my next trip to a city unlike mine! 
 
