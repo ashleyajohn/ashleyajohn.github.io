@@ -1,16 +1,20 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!DOCTYPE html>
+	<html>
+		{% include head.html %}
+		
+		
+		 {% for js in page.jsarr %}
+		     <script type="text/javascript">
+		     {% include {{ js }} %}
+		     </script>
+		 {% endfor %}
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		
+			
+		</head>
+	
+	</html>
 
-<div class="post">
-  {{ content }}
-</div>
-
-
-{% for js in page.jsarr %}
-<script type="text/javascript">
-  {% include {{ js }} %}
-</script>
-{% endfor %}
