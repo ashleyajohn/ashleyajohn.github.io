@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'More Networks
+title: 'More Networks'
 jsarr:
 - graphs/migration_network.js
 ---
