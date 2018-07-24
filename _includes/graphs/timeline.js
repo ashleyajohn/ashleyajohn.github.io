@@ -1,34 +1,18 @@
- var container = document.getElementById('visualization');
-  var today = new Date();
-  var dd = today.getDate();
-  var mm = today.getMonth()+1; //January is 0!
-  var yyyy = today.getFullYear();
-  if(dd<10) {
-		   dd = '0'+dd
-		} 
-
-  if(mm<10) {
-		    mm = '0'+mm
-		} 
-
-  today = mm + '/' + dd + '/' + yyyy;
+  // DOM element where the Timeline will be attached
+  var container = document.getElementById('visualization');
 
   // Create a DataSet (allows two way data-binding)
   var items = new vis.DataSet([
-          {id: 1, content: 'B.S. in Industrial Engineering @ Pitt', start:'2013-08-26', end:'2017-04-30'},
-	  {id: 2, content: 'M.Eng. in Operations<br>Research and <br>Information<br>Engineering<br>@ Cornell Tech', start:'2017-08-21', end:'2018-05-27'},
-	  {id: 3, content: 'Data Engineer<br>@ Bloomberg', start: '2018-06-11'},
-	  {id: 4, content: 'Analyst<br>Intern<br>@ Source One', start: '2017-05-01'},
-	  {id: 5, content: 'Business<br>Systems<br>Intern<br>@ Giant Eagle', start: '2014-05-12'},
-	  {id: 6, content: 'Research Assistant @ Pitt IE Department', start: '2014-10-01', end:'2017-04-30'},
-	  {id: 7, content: 'Program<br>Coordinator<br>@ Pitt Res Life', start: '2016-01-05'}
-	  
+    {id: 1, content: 'item 1', start: '2014-04-20'},
+    {id: 2, content: 'item 2', start: '2014-04-14'},
+    {id: 3, content: 'item 3', start: '2014-04-18'},
+    {id: 4, content: 'item 4', start: '2014-04-16', end: '2014-04-19'},
+    {id: 5, content: 'item 5', start: '2014-04-25'},
+    {id: 6, content: 'item 6', start: '2014-04-27', type: 'point'}
   ]);
 
   // Configuration for the Timeline
-  var options = {height: '45vh',
-		horizontalScroll: true};
-
+  var options = {};
 
   // Create a Timeline
   var timeline = new vis.Timeline(container, items, options);
