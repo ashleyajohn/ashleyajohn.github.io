@@ -1,5 +1,5 @@
   // DOM element where the Timeline will be attached
-  var container = document.getElementById('timeline');
+  var container = document.getElementById('visualization');
 
   // Create a DataSet (allows two way data-binding)
   var items = new vis.DataSet([{
