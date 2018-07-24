@@ -2,6 +2,7 @@
 layout: default
 title: About Me
 jsarr:
-- graphs/migration_network.js
+- graphs/timeline.js
 ---
-<div id="mynetworkAnc" style="float:left; height: 400px; width:300px"></div>
+plz just work 
+<div id="timeline"></div>
