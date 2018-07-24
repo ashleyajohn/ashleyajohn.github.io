@@ -5,7 +5,7 @@ date: 2018-06-30
 ---
 
 I’ve been getting the itch to travel and to work on some unsupervised learning, so here we are! For this analysis, I was interested in the unsupervised clustering of cities. The interest was in seeing if there were similarities between cities that, on the surface, might not seem so similar. 
-To do this analysis, I used data that summarized major aspects of city life. I used a data set from Kaggle that used statistics from the website Movehub. The dataset contains information for about 200 cities, and contains the following fields: 
+To do this analysis, I used data that summarized major aspects of city life. I used a [data set from Kaggle](https://www.kaggle.com/jonathanbouchet/clustering-cities-data/data) that used statistics from the website Movehub. The dataset contains information for about 200 cities, and contains the following fields: 
 * Cost of living variables, capturing the cost of everyday items such as coffee, wine, movies, gas, rent, and income 
 * Quality of life variables, capturing necessities of life and about the community including purchase power, healthcare, pollution, quality of life, and crime rating
 Movehub itself gathers data from other sources to create these ratings, which it transforms into aggregates for their site. Though there aren’t many features included in the dataset, the features seem to have a bit of overlap. For example, the cost of rent vs. the income is likely related. To take a closer look, I plotted the correlation of each of the variables against each other in a heat map. 
