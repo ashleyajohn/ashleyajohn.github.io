@@ -6,70 +6,61 @@ title: About Me
 
 <!doctype html>
 <html>
-<head>
-  <title>Graph 3D cloud with sized dots</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
 
-  <style>
-    body {font: 10pt arial;}
-  </style>
-  <script type="text/javascript" src="../../dist/vis.js"></script>
 
+<div id="visualization"></div>
+  
   <script type="text/javascript">
-    var data = null;
-    var graph = null;
+			  // DOM element where the Timeline will be attached
+			  var container = document.getElementById('visualization');
 
-    // Called when the Visualization API is loaded.
-    function drawVisualization() {
-      // create the data table.
-      data = new vis.DataSet();
+			  // Create a DataSet (allows two way data-binding)
+			  var today = new Date();
+			  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 
-      // create some shortcuts to math functions
-      var sqrt = Math.sqrt;
-      var pow = Math.pow;
-      var random = Math.random;
+			  var items = new vis.DataSet([
+			  	{id: 1, content: 'EYEBEAM <br>Resident', start: '2014-02-01', end:'2015-08-30', type:'range'},
+			  	{id: 2, content: 'Consultant <br>for NYCDOE', start: '2016-07-15',type:""},
+			  	{id: 3, content: 'Consultant <br>for NYCDOE', start: '2017-07-15', type:""},
+			  	{id: 4, content: 'Parsons Design+Tech BFA', start: '2015-09-01', end: '2019-05-30'},
+			  	{id: 5, content: 'Cornell-Tech ', start: '2017-09-01', }
+			  	]);
 
-      // create the animation data
-      var imax = 100;
-      for (var i = 0; i < imax; i++) {
-        var x = pow(random(), 2);
-        var y = pow(random(), 2);
-        var z = pow(random(), 2);
+			  // Configuration for the Timeline
+			  var options = {
+			  	height: '70vh',
+			  	zoomable: false,
+			  	start: new Date(2013, 12, 21),
+			  	end: new Date(2018, 9, 30),
+			  	min: new Date(2012,12,10),
+			  	max: new Date(2020,03,20)
+			  };
 
-        var dist = sqrt(pow(x, 2) + pow(y, 2) + pow(z, 2));
-        var range = sqrt(2) - dist;
+			  // Create a Timeline
+			  var timeline = new vis.Timeline(container, items, options);
 
-        data.add({x:x,y:y,z:z,style:range});
-      }
+			  var txtData = document.getElementById('data');
+			  var btnLoad = document.getElementById('load');
+			  function loadData () {
+			  	var temp="[{\"id\":"+Math.round(Math.random() * 100)+",\"content\":\""+txtData.value+"\",\"start\":\"2018-05-30\"}]"
+			  	var data = JSON.parse(temp);
+			  	if(txtData.value != ""){ 
 
-      // specify options
-      var options = {
-        width:  '600px',
-        height: '600px',
-        style: 'dot-size',
-        showPerspective: false,
-        showGrid: true,
-        keepAspectRatio: true,
-        legendLabel:'value',
-        verticalRatio: 1.0,
-        cameraPosition: {
-          horizontal: -0.54,
-          vertical: 0.5,
-          distance: 1.6
-        },
-        dotSizeMinFraction: 0.5,
-        dotSizeMaxFraction: 2.5
-      };
+			  		items.add(data);
 
-      // create our graph
-      var container = document.getElementById('mygraph');
-      graph = new vis.Graph3d(container, data, options);
-    }
-  </script>
-</head>
+			    // adjust the timeline window such that we see the loaded data
+			    timeline.fit();
+			}
+		}
+		btnLoad.onclick = loadData;
+		 // attach events to the navigation buttons
+    document.getElementById('zoomIn').onclick    = function () { timeline.zoomIn( 0.5); };
+    document.getElementById('zoomOut').onclick   = function () { timeline.zoomOut( 0.5); };
+   
 
-<body onload="drawVisualization()">
-<div id="mygraph"></div>
+	</script>
 
-<div id="info"></div>
 </body>
 </html>
