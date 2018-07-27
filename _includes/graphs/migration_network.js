@@ -118,7 +118,12 @@ var optionsTx = {
     }
   },
   "physics": {
-    "minVelocity": 0.75
+    "forceAtlas2Based": {
+      "gravitationalConstant": -108,
+      "springLength": 100
+    },
+    "minVelocity": 0.75,
+    "solver": "forceAtlas2Based"
   }
 }
 
