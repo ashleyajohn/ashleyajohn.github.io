@@ -119,7 +119,7 @@ var optionsTx = {
   },
   "physics": {
     "forceAtlas2Based": {
-      "springLength": 100
+      "springLength": 70
     },
     "minVelocity": 0.75,
     "solver": "forceAtlas2Based"
