@@ -40,13 +40,13 @@ var nodes = new vis.DataSet([
 {id: 3, label:'Atlanta-Sandy Springs-Roswell, GA Metro Area'},
 {id: 19, label:'Colorado Springs, CO Metro Area'},
 {id: 1, label:'Asheville, NC Metro Area'},
-{id: 29, label:'Houston-The Woodlands-Sugar Land, TX Metro Area', color:'#629b57'},
+{id: 29, label:'Houston-The Woodlands-Sugar Land, TX Metro Area'},
 {id: 5, label:'Bakersfield, CA Metro Area'},
 {id: 36, label:'New Orleans-Metairie, LA Metro Area'},
 {id: 35, label:'Miami-Fort Lauderdale-West Palm Beach, FL Metro Area'},
-{id: 32, label:'Kansas City, MO-KS Metro Area', color:'#c95660'},
-{id: 48, label:'Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area', color:'#629b57'},
-{id: 40, label:'Richmond, VA Metro Area', color:'#eccbef'},
+{id: 32, label:'Kansas City, MO-KS Metro Area'},
+{id: 48, label:'Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area'},
+{id: 40, label:'Richmond, VA Metro Area'},
 {id: 25, label:'Elizabethtown-Fort Knox, KY Metro Area'}
 ])
 
