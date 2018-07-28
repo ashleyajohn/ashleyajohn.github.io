@@ -25,7 +25,7 @@ var nodes = new vis.DataSet([
 {id: 26, label:'Flagstaff, AZ Metro Area', color:'#add1a1'},
 {id: 37, label:'New York-Newark-Jersey City, NY-NJ-PA Metro Area', color:'#cc7c7c'},
 {id: 0, label:'Ann Arbor, MI Metro Area', color:'#bfa1d1'},
-{id: 45, label:'San Juan-Carolina-Caguas, PR Metro Area', color:'#c9ce84'},
+{id: 45, label:'San Juan-Carolina-Caguas, PR Metro Area', color:'#f4a742'},
 {id: 44, label:'San Jose-Sunnyvale-Santa Clara, CA Metro Area', color:'#add1a1'},
 {id: 20, label:'Columbia, SC Metro Area', color:'#a1c5d1'},
 {id: 6, label:'Baton Rouge, LA Metro Area', color:'#a1c5d1'},
