@@ -1,6 +1,6 @@
 var nodes = new vis.DataSet([
 {id: 8, label:'Bloomington, IL Metro Area', color:'#c95660'},
-{id: 28, label:'Hartford-West Hartford-East Hartford, CT Metro Area', color:'#629b57'},
+{id: 28, label:'Hartford-West Hartford-East Hartford, CT Metro Area'},
 {id: 7, label:'Blacksburg-Christiansburg-Radford, VA Metro Area', color:'#eccbef'},
 {id: 46, label:'Sioux Falls, SD Metro Area', color'#ddd89d'},
 {id: 14, label:'Charleston-North Charleston, SC Metro Area', color'#ddd89d'},
