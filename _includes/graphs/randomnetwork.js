@@ -12,21 +12,37 @@ var edges = new vis.DataSet([
     edges: edges
   };
   
-  var options = {
-  "edges": {
-    "smooth": {
-      "forceDirection": "none"
-    }
-  },
-  "physics": {
-    "forceAtlas2Based": {
-      "gravitationalConstant": -108,
-      "springLength": 100
-    },
-    "minVelocity": 0.75,
-    "solver": "forceAtlas2Based"
-  }
-}
+    var options = {
+      nodes: {
+        shape: 'dot',
+        scaling: {
+          min: 10,
+          max: 30,
+          label: {
+            min: 1,
+            max: 1,
+            drawThreshold: 12,
+            maxVisible: 20
+          }
+        }
+      },
+      edges: {
+        width: 0.15,
+        color: {inherit: 'from'}
+      },
+                physics: {
+                    forceAtlas2Based: {
+                        gravitationalConstant: -26,
+                        centralGravity: 0.005,
+                        springLength: 230,
+                        springConstant: 0.18
+                    },
+                    maxVelocity: 146,
+                    solver: 'forceAtlas2Based',
+                    timestep: 0.35,
+                    stabilization: {iterations: 150}
+                }
+    };
 
 var network = new vis.Network(container, data, options);
   
