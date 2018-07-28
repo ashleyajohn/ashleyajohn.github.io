@@ -41,4 +41,4 @@ Somewhat similarly, cities in the East coast follow a similar pattern. Philadelp
 <div id="mynetworkEast" style="height: 600px; width:600px"></div>
 <br>
 
-So what do the patterns of movement look like across the country? Which cities are attracting the most people and the fewest? I explored that in [Part 2 of this analysis](). 
+So what do the patterns of movement look like across the country? Which cities are attracting the most people and the fewest? I explored that in [Part 2 of this analysis](https://ashleyajohn.github.io/2018/07/28/networks-part-2.html). 
