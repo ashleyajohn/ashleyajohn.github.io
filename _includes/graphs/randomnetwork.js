@@ -30,9 +30,6 @@ var edges = new vis.DataSet([
                     stabilization: {iterations: 150}
                 }
             };
-            var network = new vis.Network(container, data, options);
-
-        }
 
 
 var network = new vis.Network(container, data, options);
