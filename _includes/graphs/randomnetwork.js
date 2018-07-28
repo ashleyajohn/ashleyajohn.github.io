@@ -48,7 +48,6 @@ var nodes = new vis.DataSet([
 {id: 48, label:'Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area'},
 {id: 40, label:'Richmond, VA Metro Area'},
 {id: 25, label:'Elizabethtown-Fort Knox, KY Metro Area'}
-])
 
 ])
 
