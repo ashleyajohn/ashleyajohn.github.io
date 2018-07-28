@@ -70,7 +70,7 @@ var edges = new vis.DataSet([
                     forceAtlas2Based: {
                         gravitationalConstant: -26,
                         centralGravity: 0.005,
-                        springLength: 100,
+                        springLength: 150,
                         springConstant: 0.18
                     },
                     maxVelocity: 146,
