@@ -1,8 +1,3 @@
-east - , color:'#cc7c7c'
-central - , color:'#bfa1d1'
-west - , color:'#add1a1'
-south - , color:'#a1c5d1'
-
 var nodes = new vis.DataSet([
 {id: 8, label:'Bloomington, IL Metro Area', color:'#bfa1d1'},
 {id: 28, label:'Hartford-West Hartford-East Hartford, CT Metro Area', color:'#cc7c7c'},
