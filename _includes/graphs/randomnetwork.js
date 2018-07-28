@@ -12,24 +12,11 @@ var edges = new vis.DataSet([
     edges: edges
   };
   
-    var options = {
-      nodes: {
-        shape: 'dot',
-        scaling: {
-          min: 10,
-          max: 30,
-          label: {
-            min: 1,
-            max: 1,
-            drawThreshold: 12,
-            maxVisible: 20
-          }
-        }
-      },
-      edges: {
-        width: 0.15,
-        color: {inherit: 'from'}
-      },
+            var options = {
+                nodes: {
+                    shape: 'dot',
+                    size: 16
+                },
                 physics: {
                     forceAtlas2Based: {
                         gravitationalConstant: -26,
@@ -42,7 +29,11 @@ var edges = new vis.DataSet([
                     timestep: 0.35,
                     stabilization: {iterations: 150}
                 }
-    };
+            };
+            var network = new vis.Network(container, data, options);
+
+        }
+
 
 var network = new vis.Network(container, data, options);
   
