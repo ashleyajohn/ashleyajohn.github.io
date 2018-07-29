@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Networks of Migration in the United States'
+title: 'Networks of Migration in the United States (Part 1)'
 jsarr:
 - graphs/migration_network.js
 ---
