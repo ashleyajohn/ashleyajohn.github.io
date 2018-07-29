@@ -5,7 +5,7 @@ jsarr:
 - graphs/migration_network.js
 ---
 
-After working on my [City Clustering project](https://ashleyajohn.github.io/2018/06/30/city-clustering.html) project, I realize that I've been ignoring a total open source, rich, FREE data set since my first data experience back in sophomore year. The United States Census has tables on tables of data, for almost everything you can imagine related to population, geography, cities, planning, anything! The tables, in general, are also nicely cleaned which saves a ton of time. 
+After working on my [City Clustering project](https://ashleyajohn.github.io/2018/06/30/city-clustering.html) project, I realize that I've been ignoring a total open source, rich, FREE data set since my first data experience back in sophomore year. The United States Census has tables on tables of data, for almost everything you can imagine related to population, geography, cities, planning, anything! The tables, in general, are also nicely cleaned which saves a ton of time. The only drawback is that there is a bit of a lag in reporting data, so the most recent tables are for 2011-2015.
 
 At the same time, I recently learned about the fantastic [vis.js](http://visjs.org//) library which makes lovely, simple visualizations using javascript. The syntax is straightforward and intuitive while also leaving plenty of room for personalization. 
 
