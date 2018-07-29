@@ -32,10 +32,12 @@ To get an even more macro point of view, I used [vis.js]() again to get a big pi
 <div id="mynetwork" style="height: 1000px; width:1000px"></div>
 <br>
 Each of the edges in the network is weighted by the scaled net movement between the two cities. The thicker the line between two cities - the larger the net migration. The nodes are also colored by geographic region to get an idea about which areas in the country are seeing the largest influx. The colors are as follows: 
+
 * North/Northeast - Green 
 * South/Southeast - Orange
 * Central - Purple
 * West - Blue
+
 The resounding  result that the East is not seeing much net positive movement. Only five of the top 50 come from the East and even of those, none of them are traditional, trendy metropolitan areas (see State College, PA and Richmond, VA). Central is not far behind with just six, and the remaining come from the South and the West. What is interesting about seeing migration at this network scale is that it allows the geographic relationships to come through again. For example, click on the Austin node and drag it out and you'll see that it is entirely orange (unintentionally made it Longhorn burnt orange colored). College Station and Athenes are more of the same. However, some cities are a bit more diverse like Las Vegas and Seattle. 
 
 All of this is to say that migration in the United States is a fascinating study, especially as more Americans look to move more often for jobs and family. I'm looking forward to the next update of census data to see how these results change!
