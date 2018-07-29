@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Complete Migration Network'
+title: 'Networks of Migration in the United States (Part 2)'
 jsarr:
 - graphs/randomnetwork.js
 ---
