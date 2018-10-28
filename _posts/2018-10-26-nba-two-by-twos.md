@@ -13,4 +13,4 @@ date: 2018-10-26
 ![REBS_STEALS]({{ "/assets/rebs_steals.gif" | absolute_url }})
 
 
-[Code for this project can be found on my Github.](https://github.com/ashleyajohn/city-cluster)
+[Code for this project can be found on my Github.](https://github.com/ashleyajohn/nba-quadrants)
