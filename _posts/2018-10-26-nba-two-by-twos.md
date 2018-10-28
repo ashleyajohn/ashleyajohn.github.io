@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NBA in 2 by 2"
+title: "Up and to the Right: NBA "
 date: 2018-10-26
 ---
 
