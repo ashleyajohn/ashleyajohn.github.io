@@ -6,7 +6,7 @@ date: 2018-10-26
 
 The NBA is back and a few weeks in, so what better time than to look backwards! A friend in Northwestern's design program mentioned his classmates' obsession with 2 x 2 graphs - plotting silly things like Ability to Dunk vs. Holding Their Breath under Water. I was interested in the ultra simplicity of the design, and though I wish I had statistics on these traits for NBA players, I had to settle for data from ESPN. 
 
-First I made a quick web scraper to get the data from ESPN's season summaries. Note that these are averages so they are super aggregated views of a player's performance. After all the data was collected, each stat was normalized to zero mean/unit variance. 
+First I made a quick web scraper to get the data from [ESPN's season stats](http://www.espn.com/nba/statistics/player/_/stat/scoring-per-game/sort/avgPoints/year/2018/count/1). Note that these are averages so they are super aggregated views of a player's performance. After all the data was collected, each stat was normalized to zero mean/unit variance. 
 
 Once I had all the data, I got to the plotting. I made a simple scatter plot with each player's name and then added the distribution for the x and y axis along side it to get a better picture of what the league looked like as a whole for each stat. 
 
@@ -27,12 +27,16 @@ Next let's see what players are doing besides shooting. Assists vs. field goal p
 ![ASSISTS_FG]({{ "/assets/assists_fg.gif" | absolute_url }})
 
 Flip side then, who is scoring of the court AND delivering defensively on the other end? Well, Clint Capela and not too many others. Joel Embiid and KD up next to each other for being great at blocks per game is fun, as is Terry Rozier being in the bottom left :). Block per game as a skewed distribution with a long tail to the left indicating that the average blocks/game is larger than the median.
+
 ![FG_BLOCKS]({{ "/assets/fg_blocks.gif" | absolute_url }})
 
-
+Finally, rebounds. These plots are only looking at offensive rebounds. I especially like this beacause it show my Sixers looking great, Ben Simmons and Joel Embiid great at assists and rebounds respectively. While there are a handful of players in that upper right quadrant, there are no players who are great at both, the closest being Giannis Antetokounmpo and Nikola Jokic. 
 ![ASSISTS_REB]({{ "/assets/assists_reb.gif" | absolute_url }})
 
+Finally, offenensive rebounds and steals. My gut would tell me that these are similar players who are good at both but that is not so true. Paul George shows up for the first time and is exceptional at steals per game along with Jimmy Butler. Enes Kanter is hanging out there over in the right with stellar offensive rebounds and finally Russ gets some positive love in the upper right. 
 ![REBS_STEALS]({{ "/assets/rebs_steals.gif" | absolute_url }})
 
 
 [Code for this project can be found on my Github.](https://github.com/ashleyajohn/nba-quadrants)
+
+Overall, these plots are tremendous simplifications of NBA player stats. A truer representation would be a 22 dimensional plot from a zillion simulations. But, reality is all we have for better or for worse. 
