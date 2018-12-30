@@ -52,6 +52,8 @@ Wildcard Teams:
 - Philadelphia 76ers (105 points)
 - Milwaukee Bucks (91 points)
 
+The same exact teams in the East make it into the playoffs, but in a bit of a different order. The West?
+
 *West*
 
 Southwest Teams:
@@ -69,5 +71,42 @@ Northwest Teams:
 Wildcard Teams:
 - Utah Jazz (97 points)
 - Denver Nuggets (96 points)
+
+In this world, the Clippers make the playoffs and the Nuggets squeeze their way in at the expense of the Timberwolves and the Spurs. Interesting!
+
+Now, we start to suspend belief. Let's pretend that once the teams are set, they are reseeded within their conference. Meaning that the division matters to get into the playoffs, but no longer matters once the playoffs start. Then, the seeding would look as follows:
+
+East: 
+1. Toronto Raptors (120 points)
+2. Boston Celtics (112 points)
+3. Philadelphia 76ers (105 points)
+4. Cleveland Cavaliers	(100 points)
+5. Indiana Pacers (96 points)
+6. Miami Heat (94 points)
+7. Milwaukee Bucks (91 points)
+8. Washington Wizards (89 points)
+
+Which, boringly enough, ends up being exactly what happened in the East. Fine! What about the West?
+
+West: 
+1. Houston Rockets	(130 points)
+2. Golden State Warriors (116 points)
+3. Portland Trail Blazers (99 points)
+4. New Orleans Pelicans (98 points)
+5. Oklahoma City Thunder (97 points)
+6. Utah Jazz (97 points)
+7. Denver Nuggets (96 points)
+8. Los Angeles Clippers (85 points)
+
+Note: Thunder end up on top of Jazz because they won the divisonal regular season matchups 3-1. Now in this scenario, a brand new first round: 
+
+- Rockets vs. Clippers
+- Warriors vs. Nuggets
+- Blazers vs. Jazz 
+- Pelicans vs. Thunder 
+
+What might the playoff picture looked like in this case? I'd still bet on the Warriors taking it all, but a first round exit for the Blazers might not have been a reality and the Thunder might have taken the Pelicans down a notch. On the contrary, a Clippers Rockets first round would have been either hilarious or incredibly boring. 
+
+
 
 
