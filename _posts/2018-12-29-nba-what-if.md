@@ -1,0 +1,73 @@
+---
+layout: post
+title: "NBA What If: The NBA Scored like the NHL"
+date: 2018-12-29
+---
+
+What if the NBA standings were scored like the NHL? As a review, the NHL creates its standings as follows: 
+- A team receives two standings points for winning in regulation
+- If a team loses in regulation, they receive no standings points.
+- If a game goes into overtime, both teams get a point. 
+  - The team that wins in OT gets two points total, and the losing team walks away with just the one.
+  
+Then, based on these scores the playoff picture is decided. The playoffs in the NHL are constructed by selecting the top three teams in each division and then the next two teams in the conference come in as wild cards. 
+
+The NHL is a little bit different because there are only two divisions per conference compared to the NBA's three. So let's mess around and pretend that in this alternative universe, the top two teams in each division automatically make the playoffs. Then the next two teams in the conference come in. 
+
+This means the following playoff breakdown: 
+
+East: 
+- 2 Atlantic division teams 
+- 2 Southeastern division teams 
+- 2 Central division teams 
+- Next top 2 teams in the Eastern Confernece 
+
+West
+- 2 Southwestern division teams 
+- 2 Pacific division teams 
+- 2 Northwest division teams 
+- Next top 2 teams in the Western Conference
+
+To get this sorted out, I looked at the 2017-2018 NBA season and reimagined the standings based on the NHL scoring criteria. Now, the NHL scoring works well for hockey (maybe) due to the nature of how goals are scored. As [I've explroed before](https://ashleyajohn.github.io/2018/04/03/hockey-shots.html), it is pretty hard to score a game in the NHL. In basketball however, scoring points are not as difficult. In NHL, it is of interest to teams who are tied close to the end of regulation to hold out for a "loser's point." In these scenarios, teams are moreso trying not to lose rather than trying to win. It is difficult to imagine what this might look like in basketball. Would the last quarter of close NBA games become even more mindnumbing? Or would teams stop trying to draw fouls to keep the scoring close? Who knows! Just wanted to put a disclaimer out that this scoring method doesn't *perfectly* map onto basketball. But that's what makes it fun! 
+
+Okay, so I went back through the schedule and used data from [Basketball Reference](https://www.basketball-reference.com/leagues/NBA_2018_games.html) to retroactively remake the standings. Games that were won in regulation gave two points to the winning team and none to the losing team. Games that went into OT (no matter how many periods of it) gave two points to the winner and one point to the loser. 
+
+Now, I took a closer look at what the playoff situation might look like under the NHL framework. Under this new system, the Eastern Conference playoffs look like this: 
+
+*East* 
+
+Atlantic Teams: 
+- Toronto Raptors (120 points)
+- Boston Celtics (112 points)
+
+Southeast Teams: 
+- Miami Heat (94 points)
+- Washington Wizards (89 points)
+
+Central Teams: 
+- Cleveland Cavaliers	(100 points)
+- Indiana Pacers (96 points)
+
+Wildcard Teams: 
+- Philadelphia 76ers (105 points)
+- Milwaukee Bucks (91 points)
+
+*West*
+
+Southwest Teams:
+- Houston Rockets	(130 points)
+- New Orleans Pelicans (98 points)
+
+Pacific Teams:
+- Golden State Warriors (116 points)
+- Los Angeles Clippers (85 points)
+
+Northwest Teams:
+- Portland Trail Blazers (99 points)
+- Oklahoma City Thunder (97 points)
+
+Wildcard Teams:
+- Utah Jazz (97 points)
+- Denver Nuggets (96 points)
+
+
