@@ -26,71 +26,31 @@ To get this sorted out, I looked at the 2017-2018 NBA season and reimagined the 
 
 Okay, so I went back through the schedule and used data from [Basketball Reference](https://www.basketball-reference.com/leagues/NBA_2018_games.html) to retroactively remake the standings. Games that were won in regulation gave two points to the winning team and none to the losing team. Games that went into OT (no matter how many periods of it) gave two points to the winner and one point to the loser. 
 
-Now, I took a closer look at what the playoff situation might look like under the NHL framework. Under this new system, the Eastern Conference playoffs look like this: 
+Now, I took a closer look at what the playoff situation might look like under the NHL framework. Under this new system, the Eastern Conference playoffs look like this (divisonal spots in green, wildcard spots in yellow): 
 
 **East** 
 
-Atlantic Division: 
-- Toronto Raptors (120 points)
-- Boston Celtics (112 points)
-
-Southeast Divison: 
-- Miami Heat (94 points)
-- Washington Wizards (89 points)
-
-Central Division: 
-- Cleveland Cavaliers	(100 points)
-- Indiana Pacers (96 points)
-
-Wildcard: 
-- Philadelphia 76ers (105 points)
-- Milwaukee Bucks (91 points)
+![eastern_conference_standings]({{ "/assets/eastern_conference_standings.PNG" | absolute_url }})
 
 The same exact teams in the East make it into the playoffs, but in a bit of a different order. The West?
 
 **West**
 
-Southwest Division:
-- Houston Rockets	(130 points)
-- New Orleans Pelicans (98 points)
+![western_conference_standings]({{ "/assets/western_conference_standings.PNG" | absolute_url }})
 
-Pacific Division:
-- Golden State Warriors (116 points)
-- Los Angeles Clippers (85 points)
 
-Northwest Division:
-- Portland Trail Blazers (99 points)
-- Oklahoma City Thunder (97 points)
-
-Wildcard:
-- Utah Jazz (97 points)
-- Denver Nuggets (96 points)
-
-In this world, the Clippers make the playoffs and the Nuggets squeeze their way in at the expense of the Timberwolves and the Spurs. Interesting!
+In this world, the Clippers make the playoffs soundly and the Nuggets squeeze their way in at the expense of the Timberwolves and the Spurs. Interesting!
 
 Now, we start to suspend belief. Let's pretend that once the teams are set, they are reseeded within their conference. Meaning that the division matters to get into the playoffs, but no longer matters once the playoffs start. Then, the seeding would look as follows:
 
 **East:** 
-1. Toronto Raptors (120 points)
-2. Boston Celtics (112 points)
-3. Philadelphia 76ers (105 points)
-4. Cleveland Cavaliers	(100 points)
-5. Indiana Pacers (96 points)
-6. Miami Heat (94 points)
-7. Milwaukee Bucks (91 points)
-8. Washington Wizards (89 points)
+![eastern_conference_seeding]({{ "/assets/eastern_conference_seeding.PNG" | absolute_url }})
 
 Which, boringly enough, ends up being exactly what happened in the East. Fine! What about the West?
 
 **West:** 
-1. Houston Rockets	(130 points)
-2. Golden State Warriors (116 points)
-3. Portland Trail Blazers (99 points)
-4. New Orleans Pelicans (98 points)
-5. Oklahoma City Thunder (97 points)
-6. Utah Jazz (97 points)
-7. Denver Nuggets (96 points)
-8. Los Angeles Clippers (85 points)
+![western_conference_seeding]({{ "/assets/western_conference_seeding.PNG" | absolute_url }})
+
 
 Note: Thunder end up on top of Jazz because they won the divisonal regular season matchups 3-1. Now in this scenario, a brand new first round: 
 
@@ -100,3 +60,11 @@ Note: Thunder end up on top of Jazz because they won the divisonal regular seaso
 - Pelicans (4) vs. Thunder (5) 
 
 What might the playoff picture looked like in this case? I'd still bet on the Warriors taking it all, but a first round exit for the Blazers might not have been a reality and the Thunder might have taken the Pelicans down a notch (lowering our expectations for this year perhaps...). On the contrary, a Clippers/Rockets first round would have been either hilarious or incredibly boring. 
+
+And just for fun, what would a playoff structure that didn't even care about conferences look like? Something like this: 
+
+![league_seeding]({{ "/assets/league_seeding.PNG" | absolute_url }})
+
+The Spurs and Timberwolves squeeze their ways in there at the expense of the Clippers and the Wizards. 
+
+The basketball is different from hockey is almost every way, so though this scoring format doesn't make much intuitive sense, this analysis was a fun thought experiment about how the playoffs might look and how it would result regular season play as a result. Glad to see the Sixers make their way in regardless :)
