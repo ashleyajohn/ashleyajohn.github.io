@@ -1,3 +1,9 @@
+---
+layout: post
+title: "NBA What If: What if the NBA Scored Like the NHL?"
+date: 2018-12-29
+---
+
 What if the NBA standings were scored like the NHL? As a review, the NHL creates its standings as follows: 
 - A team receives two standings points for winning in regulation
 - If a team loses in regulation, they receive no standings points.
