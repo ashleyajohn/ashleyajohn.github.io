@@ -38,14 +38,16 @@ Now, I took a closer look at what the playoff situation might look like under th
 
 ![eastern_conference_standings]({{ "/assets/eastern_conference_standings.PNG" | absolute_url }})
 
-The same exact teams in the East make it into the playoffs, but in a bit of a different order. The West?
+The same exact teams in the East make it into the playoffs, but in a bit of a different order with the Sixers and the Bucks coming in as wildcards. Also interesting to note that the Heat benefit from most from those loser points, along with the Nets as any Nets fan could have told you. 
+
+The West is where it gets fun. 
 
 **West**
 
 ![western_conference_standings]({{ "/assets/western_conference_standings.PNG" | absolute_url }})
 
 
-In this world, the Clippers make the playoffs soundly and the Nuggets squeeze their way in at the expense of the Timberwolves and the Spurs. Interesting!
+In this world, the Clippers make the playoffs soundly and the Nuggets squeeze their way in at the expense of the Timberwolves and the Spurs. Interesting! Also cool to see just how handily the Rockets dominated last season. No loser points because they never really lost. On the flip side, the Nuggests get a nice loser point boost to snag them that wildcard spot. The Northwest division is also extremely impressive: every single team in the division is handily above .500 -- the type of situation where a Divison based playoff scheme starts to feel unfair!
 
 Now, we start to suspend belief. Let's pretend that once the teams are set, they are reseeded within their conference. Meaning that the division matters to get into the playoffs, but no longer matters once the playoffs start. Then, the seeding would look as follows:
 
@@ -73,7 +75,7 @@ And just for fun, what would a playoff structure that didn't even care about con
 
 ![league_seeding]({{ "/assets/league_seeding.PNG" | absolute_url }})
 
-The Spurs and Timberwolves squeeze their ways in there at the expense of the Clippers and the Wizards. 
+The Spurs and Timberwolves squeeze their ways in there at the expense of the Clippers and the Wizards and the entire Northwest division shows up for the post season. 
 
 The basketball is different from hockey is almost every way, so though this scoring format doesn't make much intuitive sense, this analysis was a fun thought experiment about how the playoffs might look and how it would result regular season play as a result. Glad to see the Sixers make their way in regardless :)
 
