@@ -30,7 +30,7 @@ This means the following playoff breakdown:
 
 To get this sorted out, I looked at the 2017-2018 NBA season and reimagined the standings based on the NHL scoring criteria. Now, the NHL scoring works well for hockey (maybe) due to the nature of how goals are scored. As [I've explored before](https://ashleyajohn.github.io/2018/04/03/hockey-shots.html), it is pretty hard to score a game in the NHL. In basketball however, scoring points are not as difficult. In NHL, it is of interest to teams who are tied close to the end of regulation to hold out for a "loser's point." In these scenarios, teams are trying not to lose rather than trying to win. Per [Hockey Reference](https://www.hockey-reference.com/leagues/NHL_2018_games.html), 23.29% of regular reason NHL games went into overtime. Per [Basketball Reference](https://www.basketball-reference.com/leagues/NBA_2018_games.html), only 4.96% of regular season NBA games went into OT. So it is difficult to imagine what rewarding OT might look like in basketball. Would the last quarter of close NBA games become even more mindnumbing, trying to draw fouls for every little thing? Or would teams stop trying to draw fouls to keep the scoring close? Who knows. Just wanted to put a disclaimer out that this scoring method doesn't *perfectly* map onto basketball. But that's what makes it fun! 
 
-Okay, so I went back through the schedule and used data from [Basketball Reference](https://www.basketball-reference.com/leagues/NBA_2018_games.html) to retroactively remake the standings. Games that were won in regulation gave two points to the winning team and none to the losing team. Games that went into OT (no matter how many periods of it) gave two points to the winner and one point to the loser. 
+Okay, so I went back through the schedule and used data from [Basketball Reference](https://www.basketball-reference.com/leagues/NBA_2018_games.html) to retroactively remake the standings. Games that were won in regulation gave two points to the winning team and none to the losing team. Games that went into OT (no matter how many periods of it) gave two points to the winner and one point to the loser. Standings are determined by the total points (winner and loser points). I also added a column called Point Fraction which represents the percentage of points a team earned out of the potential points. All teams have the chance to earn 164 points (82 games at 2 points each). The point fraction gives an idea of how much a team is capitalizing on their opportunities to win.
 
 Now, I took a closer look at what the playoff situation might look like under the NHL framework. Under this new system, the Eastern Conference playoffs look like this (divisonal spots in green, wildcard spots in yellow): 
 
@@ -50,11 +50,13 @@ In this world, the Clippers make the playoffs soundly and the Nuggets squeeze th
 Now, we start to suspend belief. Let's pretend that once the teams are set, they are reseeded within their conference. Meaning that the division matters to get into the playoffs, but no longer matters once the playoffs start. Then, the seeding would look as follows:
 
 **East:** 
+
 ![eastern_conference_seeding]({{ "/assets/eastern_conference_seeding.PNG" | absolute_url }})
 
 Which, boringly enough, ends up being exactly what happened in the East. Fine! What about the West?
 
 **West:** 
+
 ![western_conference_seeding]({{ "/assets/western_conference_seeding.PNG" | absolute_url }})
 
 
@@ -74,3 +76,5 @@ And just for fun, what would a playoff structure that didn't even care about con
 The Spurs and Timberwolves squeeze their ways in there at the expense of the Clippers and the Wizards. 
 
 The basketball is different from hockey is almost every way, so though this scoring format doesn't make much intuitive sense, this analysis was a fun thought experiment about how the playoffs might look and how it would result regular season play as a result. Glad to see the Sixers make their way in regardless :)
+
+[Code for this project can be found on my Github.](https://github.com/ashleyajohn/nba-as-nhl)
