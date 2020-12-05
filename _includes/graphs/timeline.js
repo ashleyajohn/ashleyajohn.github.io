@@ -29,7 +29,8 @@ var items = new vis.DataSet([{
     {
         id: 3,
         content: 'Data Engineer<br>@ Bloomberg',
-        start: '2018-06-11'
+        start: '2018-06-11',
+        end: '2019-11-01'
     },
     {
         id: 4,
@@ -51,6 +52,11 @@ var items = new vis.DataSet([{
         id: 7,
         content: 'Program<br>Coordinator<br>@ Pitt Res Life',
         start: '2016-01-05'
+    },
+    {
+        id: 8,
+        content: 'Data Engineering Team Leader<br>@ Bloomberg',
+        start: '2019-11-01'
     }
 
 ]);
