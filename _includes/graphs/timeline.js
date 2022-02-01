@@ -56,7 +56,13 @@ var items = new vis.DataSet([{
     {
         id: 8,
         content: 'Data Engineering Team Leader<br>@ Bloomberg',
-        start: '2019-11-01'
+        start: '2019-11-01',
+        end: '2021-11-12'
+    },
+    {
+        id: 9,
+        content: 'Data Engineering<br>@ Spotify',
+        start: '2021-12-06'
     }
 
 ]);
